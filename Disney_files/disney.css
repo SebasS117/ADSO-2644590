@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Waltograph Disney';
+    src: url(waltographUI.ttf) format('truetype');
+}
+
+body{
+    background: rgb(0,17,102);
+    background: linear-gradient(circle, rgb(0, 102, 70) 0%, rgba(70,107,252,1) 100%);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-family: 'Waltograph Disney';
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    padding-top: 2rem;
+}
