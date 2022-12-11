@@ -1,0 +1,40 @@
+body{
+    margin-top: 4em;
+    background-image: url(https://wallpapercave.com/wp/wp2465958.jpg);
+}
+.parr-style{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+.borde1, .borde2, .borde3, .borde4, .borde5{
+    height: 250px;
+    width: 150px;
+    padding: 1em;
+}
+
+.borde1{
+    border: 5px solid rgb(0, 154, 74);
+    background-color: rgb(0, 201, 50);
+}
+
+.borde2{
+    border: 5px dotted rgb(136, 0, 0);
+    background-color:rgb(217, 29, 0)
+}
+
+.borde3{
+    border: 5px dashed rgb(0, 247, 255);
+    background-color: rgb(0, 56, 129);
+
+}
+
+.borde4{
+    border: 5px double rgb(119, 115, 255);
+    background-color: rgb(17, 17, 229);
+}
+
+.borde5{
+    border: 5px groove rgb(117, 33, 206);
+    background-color: rgb(207, 62, 243);
+    }
