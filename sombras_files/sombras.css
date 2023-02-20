@@ -1,1 +1,68 @@
+body {
+  background-image: url(https://www.renderhub.com/negalox/minecraft-glowing-ore-wallpaper/minecraft-glowing-ore-wallpaper-01.jpg)
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.box1 {
+  box-shadow: 10px 0 10px 0 rgb(94, 91, 91);
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.box2 {
+  box-shadow: 10px 0 20px 10px rgba(6, 201, 245, 0.696);
+  background-color: aqua;
+  color: black;
+}
+
+.box3 {
+  box-shadow: -10px 0 10px 0 rgb(74, 75, 16);
+  background-color: yellow;
+  color: black;
+}
+
+.box4 {
+  box-shadow: -10px 0 20px 10px rgba(223, 11, 11, 0.642);
+  background-color: red;
+  color: white;
+}
+
+.box5 {
+  box-shadow: inset 10px 10px 10px 10px rgba(55, 2, 38, 0.6);
+  background-color: purple;
+  color: white;
+}
+
+.box6 {
+  cursor: pointer;
+  box-shadow: 10px 0 20px 10px rgba(0, 0, 0, 0.772);
+  background-color: blue;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.box6:hover {
+  box-shadow: 20px 0 40px 20px rgb(21, 4, 149);
+}
