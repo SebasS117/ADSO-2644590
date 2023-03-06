@@ -1,1 +1,82 @@
-
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #1d1f20;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Estilos para el formulario */
+  .form-box {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .btn-enviar {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
