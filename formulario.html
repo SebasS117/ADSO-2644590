@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1> REGISTRO PARA RESERVA DE VUELOS</h1>
+    <div class="form-box">
+        <form>
+
+        <legend><span class="legent-text"></span>POR FAVOR INGRESE LOS DATOS </span></legend>
+            
+      
+        <label>ingrese numero de documento</label>
+        <input type="text" name="numero de documento:" placeholder="ingrese documento">
+        <label>ingrese primer nombre</label>
+        <input type="text" name="primer nombre:" id="">
+        <label>ingrese segundo nombre</label>
+        <input type="text" name="segundo nombre:" id="">
+        <label>ingrese primer apellido</label>
+        <input type="text" name="primer apellido:" id="">
+        <label>ingrese segundo apellido</label>
+        <input type="text" name="segundo apellido:" id="">
+        <label> desea hacerle alguna consulta especial a la aeroliniea </label>
+        <textarea name="nombre" id="ide" cols="40" rows="6"></textarea>
+        <label>ingrese el genero:</label>
+        <input type="radio" name="genero"value="masculino"> <span class="texto-genero">masculino</span> <br>
+        <input type="radio" name="genero"value="femenino"> <span class="texto-genero">femenino</span><br>
+        <input type="radio" name="genero"value="ideterminado"> <span class="texto-genero">prefiero no decirlo</span><br>
+        <label>ingrese la aerolinea con las cuales le gustaria viajar:</label>
+        <input type="checkbox" name="aeroliniea" id="">avianca <br>
+        <input type="checkbox" name="aeroliniea" id="">viva air <br>
+        <input type="checkbox" name="aeroliniea" id="">Latam <br>
+        <input type="checkbox" name="aeroliniea" id="">Ultra air <br>
+        <input type="checkbox" name="aeroliniea" id="">America airline <br>
+        
+        <label>seleccione el destino</label>
+        <select class="selec-style" name="destino">
+            <option value="New York">New York</option>
+            <option value="Tokio">Tokio</option>
+            <option value="Gotham">Gotham</option>
+            <option value="Metropolis">Metropolis</option>
+            <option value="Londres">Londres</option>
+            <option value="Central City">Central City</option>
+
+        </select>
+        <div class="btn-evniar"> <input type="submit" value="enviar"></div>
+       
+        </form>
+    </div>
+</body>
+</html>
