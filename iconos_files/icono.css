@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    width: 0px;
+    height: 100vh;
+    background-color: rgb(255, 251, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: -50px;
+    margin-right: 15px;
+  }
+  
+  ul {
+    width: 200%;
+    height: 100%;
+    text-align: right;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 25px;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .style-home {
+    color: rgb(14, 10, 218);
+    margin-right: 9px;
+  }
+  
+  li:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+  }
+  
+  /* Agregar estilos para la barra de navegación desplegable */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown-content ul {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 0;
+  }
+  
+  .dropdown-content ul li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .dropdown-content ul li a {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .box.main {
+    margin-left: 250px;
+    text-align: justify;
+    margin-right: 30px;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 280px;
+  }
+  .fa-bars {
+    font-size: 40px;
+  }
+  
+  
