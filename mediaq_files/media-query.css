@@ -118,7 +118,7 @@ nav #icon{
 }
 
 section{
-    background-image:url(banner_coomotor.jpg);
+    background-image:url(mediaq_files/banner_coomotor.jpg);
     background-size: cover;
     height: calc(110vh - 90px);
     background-repeat: no-repeat;
