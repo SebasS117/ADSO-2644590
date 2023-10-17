@@ -26,7 +26,7 @@ inputBusqueda.addEventListener("keydown", function(event) {
         boxImg.setAttribute("class", "box-img");
         let imgAuto = document.createElement("img");
         boxImg.appendChild(imgAuto);
-        imgAuto.setAttribute("src", "img/toyota-ml-1-400x300.jpeg");
+        imgAuto.setAttribute("src", "./Mercado_Libre/toyota-ml-1-400x300.jpeg");
         imgAuto.setAttribute("class", "img-auto");
 
         /* Caja para la información */
