@@ -11,7 +11,7 @@ class Automovil {
         this.imagen = imagen;
     }
 }
-let auto1 = new Automovil("Toyota", "TXL", 150000000, "2022 ·", " 18.000 km ·", " Neiva-Huila", "toyota-ml-1-400x300.jpeg");
+let auto1 = new Automovil("Toyota", "TXL", 150000000, "2022 ·", " 18.000 km ·", " Neiva-Huila", "./Mercado_Libre_files/toyota-ml-1-400x300.jpeg");
 /* alert (auto1.marca + " " + auto1.modelo); */
 
 window.addEventListener("load", function(event) {
