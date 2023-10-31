@@ -11,7 +11,7 @@ class Automovil {
         this.imagen = imagen;
     }
 }
-let auto1 = new Automovil("Toyota", "TXL", 150000000, "2021 ·", " 25.400 km ·", " Pitalito-Huila", "img/Toyota_Prado.jpg");
+let auto1 = new Automovil("Toyota", "TXL", 150000000, "2021 ·", " 25.400 km ·", " Pitalito-Huila", "Mercado_Libre_files/toyota-ml-1-400x300.jpeg");
 /* alert (auto1.marca + " " + auto1.modelo); */
 
 window.addEventListener("load", function(event) {
