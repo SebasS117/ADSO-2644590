@@ -15,6 +15,10 @@
         let autos = [
             new Automovil("Toyota", "TXL", 150000000, "2022 ·", "18.000 km ·", "Neiva-Huila", "./Mercado_Libre_files/toyota-ml-1-400x300.jpeg"),
             new Automovil("Honda", "Civic", 120000000, "2021 ·", "15.000 km ·", "Bogotá", "./Mercado_Libre_files/honda-ml-1-400x300.jpeg"),
+            new Automovil("Chevrolet", "Spark", 60000000, "2020 ·", "10.000 km ·", "Medellín", "./Mercado_Libre_files/chevrolet-ml-1-400x300.jpeg"),
+            new Automovil("Ford", "Fiesta", 80000000, "2020 ·", "12.000 km ·", "Cali", "./Mercado_Libre_files/ford-ml-1-400x300.jpeg"),
+            new Automovil("Nissan", "Sentra", 110000000, "2021 ·", "20.000 km ·", "Barranquilla", "./Mercado_Libre_files/nissan-ml-1-400x300.jpeg"),
+            new Automovil("Hyundai", "i20", 75000000, "2021 ·", "15.000 km ·", "Cartagena", "./Mercado_Libre_files/hyundai-ml-1-400x300.jpeg"),
             // Agregar más vehículos según sea necesario
         ];
 
