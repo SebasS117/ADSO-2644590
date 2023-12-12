@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calificación de Producto</title>
+    <link rel="stylesheet" href="estrella_files/estrella.css">
+    <link rel="stylesheet" href="./iconos_files/icons/all.css"> <!-- Asegúrate de cambiar la ruta al archivo all.css de FontAwesome -->
+</head>
+<body>
+    <div class="container">
+        <h1>Califica este Producto</h1>
+        <input type="range" id="star-rating" min="0" max="5" step="0.1" value="0" oninput="updateStars(this.value)">
+        <div class="star-rating-display">
+            <!-- Los íconos de las estrellas se actualizarán aquí -->
+        </div>
+        <div class="star-rating-text"></div>
+    </div>
+    <script src="estrella_files/estrella.js"></script>
+</body>
+</html>
