@@ -1,1 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
 
+.container {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-row span {
+    flex: 1;
+}
+
+.progress-bar {
+    flex: 4;
+    height: 20px;
+    background-color: #e6e6e6;
+    margin: 0 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.progress {
+    height: 100%;
+    background-color: #ffc107; /* Un tono de amarillo dorado para las estrellas */
+    border-radius: 10px;
+    width: 0%; /* Inicialmente sin relleno */
+    transition: width 0.5s ease-in-out; /* Suave transición para la animación de la barra */
+}
+
+input[type="number"] {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: calc(100% - 24px); /* 100% - padding y bordes */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c; /* Un verde para el botón de acción */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c; /* Un tono más oscuro al pasar el cursor */
+}
+
+.percentage {
+    min-width: 50px; /* Asegura que el texto del porcentaje no apriete la barra */
+    text-align: right;
+}
