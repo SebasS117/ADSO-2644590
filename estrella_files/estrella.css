@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+}
+
+.star-rating-display i {
+    color: #ffc107; /* Color dorado para las estrellas */
+    margin: 0 2px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 20px 0;
+}
