@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gráfico de Calificaciones</title>
+   <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calificaciones</h1>
+        <!-- Campos para ingresar las calificaciones -->
+        <div class="rating-entry">
+            <label for="rating5">5 estrellas:</label>
+            <input type="number" id="rating5" min="0" placeholder="Cantidad" />
+        </div>
+        <div class="rating-entry">
+            <label for="rating4">4 estrellas:</label>
+            <input type="number" id="rating4" min="0" placeholder="Cantidad" />
+        </div>
+        <div class="rating-entry">
+            <label for="rating3">3 estrellas:</label>
+            <input type="number" id="rating3" min="0" placeholder="Cantidad" />
+        </div>
+        <div class="rating-entry">
+            <label for="rating2">2 estrellas:</label>
+            <input type="number" id="rating2" min="0" placeholder="Cantidad" />
+        </div>
+        <div class="rating-entry">
+            <label for="rating1">1 estrella:</label>
+            <input type="number" id="rating1" min="0" placeholder="Cantidad" />
+        </div>
+        <button onclick="calcularPromedios()">Calcular</button>
+        
+        <!-- Barras de progreso para las calificaciones -->
+        <div class="ratings">
+            <div class="rating-row">
+                <span>5 estrellas</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress5"></div>
+                </div>
+                <span id="percentage5"></span>
+            </div>
+            <div class="rating-row">
+                <span>4 estrellas</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress4"></div>
+                </div>
+                <span id="percentage4"></span>
+            </div>
+            <div class="rating-row">
+                <span>3 estrellas</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress3"></div>
+                </div>
+                <span id="percentage3"></span>
+            </div>
+            <div class="rating-row">
+                <span>2 estrellas</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress2"></div>
+                </div>
+                <span id="percentage2"></span>
+            </div>
+            <div class="rating-row">
+                <span>1 estrella</span>
+                <div class="progress-bar">
+                    <div class="progress" id="progress1"></div>
+                </div>
+                <span id="percentage1"></span>
+            </div>
+        </div>
+    </div>
+    <script src="amazon.js"></script>
+</body>
+</html>
