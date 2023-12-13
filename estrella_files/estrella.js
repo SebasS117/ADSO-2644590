@@ -4,8 +4,16 @@ function updateStars(value) {
     starRatingDisplay.innerHTML = ''; // Limpiar estrellas anteriores
     value = parseFloat(value); // Convertir el valor a float para comparaciones
     
+    // Determinar número de estrellas completas y medias estrellas
     let fullStars = Math.floor(value);
-    let halfStar = (value % 1) > 0.2 && (value % 1) <= 0.7 ? true : false;
+    let halfStar = false;
+    
+    if (value - fullStars > 0.2 && value - fullStars <= 0.7) {
+        halfStar = true;
+    } else if (value - fullStars > 0.7) {
+        fullStars++;
+    }
+    
     let emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
 
     // Añadir estrellas completas
@@ -26,3 +34,7 @@ function updateStars(value) {
     // Actualizar el texto de calificación
     starRatingText.textContent = `Tu calificación: ${value.toFixed(1)}`;
 }
+
+// Inicializar con 0 estrellas
+updateStars(0);
+
